@@ -51,10 +51,16 @@
 
 
     <main>
-      <section>
-        <h2>Tipping Point</h2>
-        <p>A review of the historical events leading to the Great March on Washington</p>
-      </section>
+      <div class="css-module">
+        <h2>.jumbo</h2>
+        <img class="sample-image" src="images/modules/jumbo.png" alt="Jumbo Image">
+
+        <!--Start .jumbo-->
+        <section class="jumbo">
+          <h2>Tipping Point<span>A review of the historical events leading to the Great March on Washington</span></h2>
+        </section>
+        <!--End .page-header-->
+      </div>
 
       <section>
         <article>
@@ -133,5 +139,7 @@
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
+    <script src="https://use.typekit.net/nba8dzw.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
   </body>
 </html>
