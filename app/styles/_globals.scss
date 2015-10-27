@@ -1,0 +1,22 @@
+// _globals.scss
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #fafafa;
+  font: 100 18px/1.5 $font-stack-sans;
+  color: $fuscous-grey;
+}
+
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
