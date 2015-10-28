@@ -9,18 +9,19 @@
     font: 1.55em/1 $font-stack-serif;
     text-transform: uppercase;
     display: inline-block;
+    letter-spacing: 1px;
     a {
       color: $fuscous-grey;
     }
   }
   nav {
     display: inline-block;
-    margin-left: 1em;
+    margin-left: .5em;
     ul {
       list-style-type: none;
       li {
         display: inline-block;
-        margin-right: 2.25em;
+        margin-right: 2em;
         &:last-of-type {
           margin-right: 0;
         }

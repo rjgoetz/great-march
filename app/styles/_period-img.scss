@@ -1,0 +1,18 @@
+// _period-img.scss
+
+.period-img {
+  font: 1.1111rem/1 $font-stack-serif;
+  text-align: center;
+  h3 {
+    border-top: 1px solid $camel;
+    padding-top: 1.5em;
+    margin: 0;
+  }
+  p {
+    font-size: .8888em;
+    margin-top: .75em;
+  }
+  img {
+    padding-top: .8em;
+  }
+}
