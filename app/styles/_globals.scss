@@ -14,9 +14,14 @@ body {
   color: $fuscous-grey;
 }
 
-.wrapper {  
-  width: 960 / 18 * 1em;
+.wrapper {
+  width: 960px;
   margin: 0 auto;
+}
+
+main {
+  background: url('../images/train-tracks.jpg') no-repeat bottom center;
+  padding-bottom: 20em;
 }
 
 .browserupgrade {

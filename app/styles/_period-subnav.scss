@@ -2,8 +2,8 @@
 
 .period-subnav {
     list-style-type: none;
-    font-size: .7222em;
-    margin-top: 0.5rem;
+    font-size: .8em;
+    margin-top: 0;
     padding-left: 0;
     text-align: center;
     li {
@@ -25,8 +25,3 @@
       }
     }
   }
-
-.subnav-group {
-  width: 100%;
-  @include clearfix;
-}

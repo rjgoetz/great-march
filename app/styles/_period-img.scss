@@ -17,11 +17,11 @@
   }
   img {
     padding-top: .8em;
+    display: block;
   }
 }
 
 .timeline-nav {
-  @include clearfix;
   article:last-of-type {
     position: relative;
     q {
