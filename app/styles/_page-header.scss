@@ -10,19 +10,20 @@
     text-transform: uppercase;
     display: inline-block;
     letter-spacing: 1px;
+    margin-right: 1.5em;
     a {
       color: $fuscous-grey;
     }
   }
   nav {
     display: inline-block;
-    margin-left: 0.5em;
-    position: relative;
     ul {
+      padding: 0;
       list-style-type: none;
       li {
+        position: relative;
         display: inline-block;
-        margin-right: 0.5em;       
+        margin-right: 0.5em;
         &:last-of-type {
           margin-right: 0;
         }
@@ -37,17 +38,19 @@
         }
       }
       ul {
-        font-size: 0.95em;
         display: none;
         position: absolute;
+        left: 0;
+        top: 1.5em;
         z-index: 1;
         padding: 0;
+        width: 13em;
         li {
-          display: block;
+          width: 100%;
           margin: 0;
           background: $greige;
           &:first-child {
-            padding-top: 0.25em;
+            padding-top: 0.5em;
           }
           a {
             color: $camel;
@@ -55,7 +58,7 @@
             display: block;
             width: 100%;
             height: 100%;
-            padding: 0.5em 2em 1em 2em;
+            padding: 0.75em 0 0.75em 2em;
             &:hover {
               color: $white;
               background: $camel;
