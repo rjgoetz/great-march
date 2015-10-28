@@ -1,0 +1,29 @@
+// _page-footer.scss
+
+.page-footer {
+  font-size: .7222em;
+  font-weight: 400;
+  //clear: both;
+  p {
+    display: inline-block;
+    margin-right: 5em;
+  }
+  a {
+    text-decoration: none;
+    color: $camel;
+    &:hover {
+      color: $fuscous-grey;
+    }
+  }
+  ul {
+    margin-top: .3em;;
+    float: right;
+    text-align: right;
+    list-style-type: none;
+    font-size: 1.4rem;
+    float: right;
+    li {
+      display: inline-block;
+    }
+  }
+}
