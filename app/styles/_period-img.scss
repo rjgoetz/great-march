@@ -1,10 +1,13 @@
 // _period-img.scss
 
 .period-img {
+  margin-top: 1.3333em;
   font: 1.1111rem/1 $font-stack-serif;
+  color: $camel;
   text-align: center;
   h3 {
     border-top: 1px solid $camel;
+    letter-spacing: 1px;
     padding-top: 1.5em;
     margin: 0;
   }
@@ -14,5 +17,34 @@
   }
   img {
     padding-top: .8em;
+  }
+}
+
+.timeline-nav {
+  @include clearfix;
+  article:last-of-type {
+    position: relative;
+    q {
+      font-size: 1.5rem;
+      text-align: left;
+      color: $white;
+      quotes: none;
+      position: absolute;
+      bottom: 1.5rem;
+      right: 2em;
+      span:first-of-type {
+        display: block;
+        font-size: 5.5555rem;
+        position: relative;
+        right: 2rem;
+        top: 4.5rem;
+      }
+      span:last-of-type {
+        display: block;
+      }
+    }
+  }
+  &>img {
+    display: block;
   }
 }

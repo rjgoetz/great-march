@@ -11,6 +11,7 @@
 
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -26,81 +27,81 @@
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+    <div class="wrapper">
+      <header class="page-header">
+        <h1><a href="#">Tipping Point</a></h1>
+        <nav>
+          <ul>
+            <li><a href="#">Reconstruction Era</a></li>
+            <li><a href="#">Jim Crow Era</a></li>
+            <li><a href="#">Civil Rights Period</a></li>
+            <li><a href="#">The Great March</a></li>
+          </ul>
+        </nav>
+      </header>
 
-    <header class="page-header">
-      <h1><a href="#">Tipping Point</a></h1>
-      <nav>
+      <main>
+        <section class="jumbo">
+          <h2>Tipping Point<span>A review of the historical events leading to the Great March on Washington</span></h2>
+        </section>
+
+        <section class="timeline-nav">
+          <article class="period-img col1-4">
+            <h3>Reconstruction Era</h3>
+            <p>1863 - 1877</p>
+            <img src="images/abe-lincoln.jpg" alt="Abe Lincoln" title="Abe Lincoln">
+          </article>
+          <article class="period-img col1-4">
+            <h3>Jim Crow Era</h3>
+            <p>1877 - 1954</p>
+            <img src="images/jim-crow.jpg" alt="Jim Crow Laws" title="Jim Crow Laws">
+          </article>
+          <article class="period-img col1-4">
+            <h3>Civil Rights Period</h3>
+            <p>1954 - 1963</p>
+            <img src="images/brown-vs-board-of-education.jpg" alt="Brown vs Board of Education" title="Brown vs Board of Education">
+          </article>
+          <article class="period-img col">
+            <h3>The Great March</h3>
+            <p>August 28, 1963</p>
+            <img src="images/martin-luther-king.jpg" alt="Martin Luther King Jr" title="Martin Luther King Jr">
+            <q><span>&ldquo;</span>I have a <span>dream...</span><q></q>
+          </article>
+          <img src="images/timeline.jpg" alt="timeline">
+        </section>
+
+        <nav class="subnav-group">
+          <ul class="period-subnav col1-4">
+            <li><a href="#">Emancipation Proclamation</a></li>
+            <li><a href="#">Black Code Laws</a></li>
+            <li><a href="#">Fifteenth Amendment</a></li>
+          </ul>
+          <ul class="period-subnav col1-4">
+            <li><a href="#">Disfranchisement</a></li>
+            <li><a href="#">Plessy vs. Ferguson</a></li>
+            <li><a href="#">Jim Crow Laws</a></li>
+          </ul>
+          <ul class="period-subnav col1-4">
+            <li><a href="#">Brown vs. Board of Education</a></li>
+            <li><a href="#">Ku Klux Klan</a></li>
+            <li><a href="#">Birmingham Riots</a></li>
+          </ul>
+          <ul class="period-subnav col">
+            <li><a href="#">The Great March</a></li>
+          </ul>
+        </nav>
+      </main>
+
+      <footer class="page-footer">
+        <p>&copy; 2015 Tipping Point. All rights reserved.</p>
+        <a href="#">About</a>
         <ul>
-          <li><a href="#">Reconstruction Era</a></li>
-          <li><a href="#">Jim Crow Era</a></li>
-          <li><a href="#">Civil Rights Period</a></li>
-          <li><a href="#">The Great March</a></li>
+          <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+          <li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
         </ul>
-      </nav>
-    </header>
-
-    <main>
-      <section class="jumbo">
-        <h2>Tipping Point<span>A review of the historical events leading to the Great March on Washington</span></h2>
-      </section>
-
-      <section>
-        <article class="period-img">
-          <h3>Reconstruction Era</h3>
-          <p>1863 - 1877</p>
-          <img src="" alt="">
-        </article>
-        <article class="period-img">
-          <h3>Jim Crow Era</h3>
-          <p>1877 - 1954</p>
-          <img src="" alt="">
-        </article>
-        <article class="period-img">
-          <h3>Civil Rights Period</h3>
-          <p>1954 - 1963</p>
-          <img src="" alt="">
-        </article>
-        <article class="period-img">
-          <h3>The Great March</h3>
-          <p>August 28, 1963</p>
-          <img src="" alt="">
-          <figure>
-            <figcaption>"I have a dream...</figcaption>
-          </figure>
-        </article>
-      </section>
-
-      <nav>
-        <ul class="period-subnav">
-          <li><a href="#">Emancipation Proclamation</a></li>
-          <li><a href="#">Black Code Laws</a></li>
-          <li><a href="#">Fifteenth Amendment</a></li>
-        </ul>
-        <ul class="period-subnav">
-          <li><a href="#">Disfranchisement</a></li>
-          <li><a href="#">Plessy vs. Ferguson</a></li>
-          <li><a href="#">Jim Crow Laws</a></li>
-        </ul>
-        <ul class="period-subnav">
-          <li><a href="#">Brown vs. Board of Education</a></li>
-          <li><a href="#">Ku Klux Klan</a></li>
-          <li><a href="#">Birmingham Riots</a></li>
-        </ul>
-        <ul class="period-subnav">
-          <li><a href="#">The Great March</a></li>
-        </ul>
-      </nav>
-    </main>
-
-    <footer class="page-footer">
-      <p>&copy; 2015 Tipping Point. All rights reserved.</p>
-      <a href="#">About</a>
-      <ul>
-        <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-        <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-        <li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
-      </ul>
-    </footer>
+      </footer>
+    </div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
