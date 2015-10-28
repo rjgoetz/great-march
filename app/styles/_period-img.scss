@@ -3,7 +3,7 @@
 .period-img {
   margin-top: 1.3333em;
   font: 1rem/1 $font-stack-serif;
-  color: $camel;
+  color: $fuscous-grey;
   text-align: center;
   h3 {
     border-top: 1px solid $camel;
@@ -26,7 +26,8 @@
   @include clearfix;
   &>img {
     position: absolute;
-    @include clearfix;
+    display: table;
+    clear: both;
     top: 25em;
   }
   article:last-of-type {
