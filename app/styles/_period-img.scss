@@ -12,25 +12,35 @@
     margin: 0;
   }
   p {
-    font-size: .8888em;
-    margin-top: .75em;
+    font-size: 1em;
+    margin-top: 0.75em;
   }
   img {
-    padding-top: .8em;
+    padding-top: 0.8em;
     display: block;
   }
 }
 
 .timeline-nav {
+  position: relative;
+  @include clearfix;
+  &>img {
+    position: absolute;
+    @include clearfix;
+    top: 25em;
+  }
   article:last-of-type {
     position: relative;
+    .overlay {
+      top: 6.5em;
+    }
     q {
       font-size: 1.5rem;
       text-align: left;
       color: $white;
       quotes: none;
       position: absolute;
-      bottom: 2.5em;
+      bottom: 3.5em;
       right: 1em;
       span:first-of-type {
         display: block;
@@ -44,4 +54,12 @@
       }
     }
   }
+}
+
+.overlay {
+  position: absolute;
+  width: 222px;
+  height: 340px;
+  top: 7.8em;
+  z-index: 99;
 }
