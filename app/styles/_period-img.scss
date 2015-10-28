@@ -32,7 +32,18 @@
   article:last-of-type {
     position: relative;
     .overlay {
-      top: 6.5em;
+      top: 26.8em;
+    }
+    ul {
+      height: 123.563px;
+      li {
+        height: 100%;
+        a {
+          padding-top: 2em;
+          font: 1.75em/1 $font-stack-serif;
+          font-style: italic;
+        }
+      }
     }
     q {
       font-size: 1.5rem;
@@ -40,7 +51,7 @@
       color: $white;
       quotes: none;
       position: absolute;
-      bottom: 3.5em;
+      bottom: 6em;
       right: 1em;
       span:first-of-type {
         display: block;
@@ -59,7 +70,7 @@
 .overlay {
   position: absolute;
   width: 222px;
-  height: 340px;
-  top: 7.8em;
+  height: 15px;
+  top: 28.1em;
   z-index: 99;
 }
