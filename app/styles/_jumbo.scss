@@ -1,11 +1,12 @@
 // _jumbo.scss
 
 .jumbo {
-  background: url('../images/tipping-point-jumbo.jpg') no-repeat;
+  background: url('../images/tipping-point-jumbo.jpg') no-repeat center;
   height: 360px;
   font: 400 2em/1 $font-stack-serif;
   color: $greige;
   position: relative;
+  margin: 0 auto;
   h2 {
     margin: 0;
     width: 100%;
