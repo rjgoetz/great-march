@@ -25,6 +25,9 @@
   margin: 0 auto;
   position: relative;
   @include clearfix;
+  h2 {
+    @include visuallyhidden;
+  }
   &>img {
     position: absolute;
     display: table;
