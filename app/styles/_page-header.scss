@@ -22,10 +22,13 @@
   nav {
     padding-top: 1.65em;
     float: right;
-    ul {
+    &>ul {
       margin: 0;
       padding: 0;
       list-style-type: none;
+      &>li:last-of-type a {
+        padding: 0;
+      }
       li {
         position: relative;
         display: inline-block;
@@ -56,7 +59,6 @@
             padding-top: 0.5em;
           }
           a {
-            color: $camel;
             text-transform: initial;
             display: block;
             width: 100%;
