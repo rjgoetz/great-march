@@ -1,26 +1,25 @@
 // _jumbo.scss
 
 .jumbo {
-  background: url('../images/tipping-point-jumbo.jpg') no-repeat center;
+  background: url('../images/tipping-point-jumbo-bg.jpg') no-repeat center;
   height: 360px;
-  font: 400 2em/1 $font-stack-serif;
+  font: 1rem/1.1 $font-stack-serif;
   color: $greige;
   position: relative;
   margin: 0 auto;
   h2 {
     margin: 0;
     width: 100%;
+    padding: 0 1em;
     text-align: center;
-    text-transform: uppercase;
     position: absolute;
     letter-spacing: 3px;
-    bottom: 1.5rem;
+    bottom: 2rem;
     span {
-      letter-spacing: 1px;
+      font-size: 1.7em;
       text-transform: initial;
       margin-top: .5rem;
       display: block;
-      font-size: 1rem;
     }
   }
 }

@@ -2,8 +2,8 @@
 
 .page-header {
   width: 100%;
-  padding: 0 32px;
-  background: $greige url("../images/header-shadow.jpg") no-repeat bottom center;
+  padding: 0 18px;
+  background: $greige url("../images/header-shadow-bg.jpg") no-repeat bottom center;
   @include clearfix;
   a {
     text-decoration: none;

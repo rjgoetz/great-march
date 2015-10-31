@@ -1,7 +1,7 @@
 // _page-footer.scss
 
 .page-footer {
-  padding: 0 32px;
+  padding:  0 18px;
   font-size: .7222em;
   font-weight: 400;
   background: $greige;
@@ -12,12 +12,13 @@
   a {
     text-decoration: none;
     color: $camel;
+    vertical-align: text-top;
     &:hover {
       color: $fuscous-grey;
     }
   }
   ul {
-    margin: 0.3em 0 0 0;
+    margin: 0.2em 0 0 0;
     float: right;
     text-align: right;
     list-style-type: none;

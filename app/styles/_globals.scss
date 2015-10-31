@@ -2,16 +2,16 @@
 
 html {
   box-sizing: border-box;
+  background: $greige;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
 body {
-  background: $greige;
   font: 100 18px/1.5 $font-stack-sans;
   color: $fuscous-grey;
-  width: 1024 / 18 * 1em;
+  width: 996 / 18 * 1em;
   margin: 0 auto;
 }
 
