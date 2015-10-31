@@ -34,9 +34,10 @@
     clear: both;
     top: 25em;
   }
-  div:last-of-type {
+  &>div:last-of-type {
+    position: relative;
     .overlay {
-      top: 26.8em;
+      top: 28.1em;
     }
     ul {
       height: 130.359px;

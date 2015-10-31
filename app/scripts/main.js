@@ -3,7 +3,7 @@
 
 // rollover effect on timeline images
 function reconstructionImageHover() {
-	$(".timeline-nav div:first-of-type").hover(
+	$(".timeline-nav > div:first-of-type").hover(
 		function() {
 		$("#timeline").prop("src", "images/timeline-reconstruction.png");
 		}, function () {
@@ -13,7 +13,7 @@ function reconstructionImageHover() {
 }
 
 function jimCrowImageHover() {
-  $(".timeline-nav div:nth-of-type(2)").hover(
+  $(".timeline-nav > div:nth-of-type(2)").hover(
     function() {
       $("#timeline").prop("src", "images/timeline-jim-crow.png");
     }, function () {
@@ -23,7 +23,7 @@ function jimCrowImageHover() {
 }
 
 function civilRightsImageHover() {
-  $(".timeline-nav div:nth-of-type(3)").hover(
+  $(".timeline-nav > div:nth-of-type(3)").hover(
     function() {
       $("#timeline").prop("src", "images/timeline-civil.png");
     }, function () {
@@ -33,7 +33,7 @@ function civilRightsImageHover() {
 }
 
 function greatMarchImageHover() {
-  $(".timeline-nav div:last-of-type").hover(
+  $(".timeline-nav > div:last-of-type").hover(
     function() {
       $("#timeline").prop("src", "images/timeline-mlk.png");
     }, function () {

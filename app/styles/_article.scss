@@ -8,7 +8,7 @@
   margin: 1rem 0 0 2rem;
   padding-bottom: 2em;
   padding: 1em;
-  background: $greige-60;
+  background: $greige-70;
   h2 {
     font: 2em/1 $font-stack-serif;
   }
@@ -21,7 +21,7 @@
       border-top: 7px solid black;
       padding-top: 1rem;
       margin-bottom: 0;
-      font: 1.2em/1 $font-stack-serif;
+      font: 1.1em/1 $font-stack-serif;
     }
     img {
       padding-top: 1rem;
@@ -32,7 +32,8 @@
     p {
       margin-top: 0.75rem;
       margin-bottom: 1rem;
-      font-size: 0.85em;
+      font-size: 0.95em;
+      line-height: 1.5;
       margin-left: 0;
     }
     .pullquote {
