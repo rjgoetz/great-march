@@ -1,0 +1,30 @@
+// _period-left-nav.scss
+
+.period-left-nav {
+  margin-top: 7.6em;
+  font: 1rem/1 $font-stack-serif;
+  color: $fuscous-grey;
+  text-align: center;
+  h3 {
+    border-top: 1px solid $camel;
+    letter-spacing: 1px;
+    padding-top: 1.5em;
+    margin: 2em 0 0.75em 0;
+  }
+  p {
+    font-size: 1em;
+    margin-top: 0.75em;
+  }
+  img {
+    padding-top: 0.8em;
+    display: block;
+  }
+}
+
+.overlay {
+  position: absolute;
+  width: 222px;
+  height: 15px;
+  top: 28.1em;
+  z-index: 99;
+}

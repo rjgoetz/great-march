@@ -8,6 +8,10 @@
   width: 25%;
 }
 
+.col7-12 {
+  width: 7 / 12 * 100%;
+}
+
 *.row {
   padding-top: 1em;
   &:after {
@@ -18,7 +22,7 @@
   }
 }
 
-article[class*='col'], ul[class*='col'] {
+div[class*='col'] {
   float: left;
   padding-right: 24px;
   &:last-of-type {

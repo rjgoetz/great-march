@@ -1,0 +1,48 @@
+// _article.scss
+
+.wrapper {
+  margin: 0 18px;
+}
+
+.article {
+  margin-top: 3rem;
+  padding-bottom: 2em;
+  background: $greige-60;
+  h2 {
+    padding: 0 1.5rem;
+    font: 2em/1 $font-stack-serif;
+  }
+  p {
+    padding: 0 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  aside {
+    padding: 0 1.5rem;
+    h3 {
+      border-top: 7px solid black;
+      padding-top: 1rem;
+      margin-bottom: 0;
+      font: 1em/1 $font-stack-serif;
+    }
+    img {
+      padding-top: 1rem;
+      margin-left: 1.5rem;
+      display: block;
+      float: right;
+    }
+    p {
+      margin-top: 0.75rem;
+      margin-bottom: 0.5rem;;
+      padding: 0;
+      font-size: 0.9em;
+    }
+    .pullquote {
+      font: 1.2222em/1.5 $font-stack-serif;
+      border-top: 7px solid black;
+      padding-top: 1rem;
+      text-align: center;
+    }
+    @include clearfix;
+  }
+}

@@ -25,4 +25,10 @@
       color: $white;
     }
   }
+  .active-link {
+    background: $camel;
+    a {
+      color: $white;
+    }
+  }
 }

@@ -3,7 +3,7 @@
 
 // rollover effect on timeline images
 function reconstructionImageHover() {
-	$(".timeline-nav article:first-of-type").hover(
+	$(".timeline-nav div:first-of-type").hover(
 		function() {
 		$("#timeline").prop("src", "images/timeline-reconstruction.png");
 		}, function () {
@@ -13,7 +13,7 @@ function reconstructionImageHover() {
 }
 
 function jimCrowImageHover() {
-  $(".timeline-nav article:nth-of-type(2)").hover(
+  $(".timeline-nav div:nth-of-type(2)").hover(
     function() {
       $("#timeline").prop("src", "images/timeline-jim-crow.png");
     }, function () {
@@ -23,7 +23,7 @@ function jimCrowImageHover() {
 }
 
 function civilRightsImageHover() {
-  $(".timeline-nav article:nth-of-type(3)").hover(
+  $(".timeline-nav div:nth-of-type(3)").hover(
     function() {
       $("#timeline").prop("src", "images/timeline-civil.png");
     }, function () {
@@ -33,7 +33,7 @@ function civilRightsImageHover() {
 }
 
 function greatMarchImageHover() {
-  $(".timeline-nav article:last-of-type").hover(
+  $(".timeline-nav div:last-of-type").hover(
     function() {
       $("#timeline").prop("src", "images/timeline-mlk.png");
     }, function () {
@@ -42,16 +42,16 @@ function greatMarchImageHover() {
   );
 }
 
-//rollover image swap on subnav
+//rollover image swap on home page subnav
 function reconstructionSubNavHover() {
-	$(".timeline-nav .period-img:first-of-type .period-subnav li:nth-of-type(2) a").hover(
+	$(".timeline-nav div:first-of-type .period-subnav li:nth-of-type(2) a").hover(
     function() {
 			$("#reconstruction-nav").prop("src", "images/black-codes.jpg");
     }, function () {
       $("#reconstruction-nav").prop("src", "images/abe-lincoln.jpg");
     }
   );
-	$(".timeline-nav .period-img:first-of-type .period-subnav li:nth-of-type(3) a").hover(
+	$(".timeline-nav div:first-of-type .period-subnav li:nth-of-type(3) a").hover(
     function() {
 			$("#reconstruction-nav").prop("src", "images/fifteenth-amendment.jpg");
     }, function () {
@@ -61,14 +61,14 @@ function reconstructionSubNavHover() {
 }
 
 function jimCrowSubNavHover() {
-	$(".timeline-nav .period-img:nth-of-type(2) .period-subnav li:nth-of-type(2) a").hover(
+	$(".timeline-nav div:nth-of-type(2) .period-subnav li:nth-of-type(2) a").hover(
     function() {
 			$("#jim-crow-nav").prop("src", "images/plessy-v-ferguson.jpg");
     }, function () {
       $("#jim-crow-nav").prop("src", "images/disfranchisement.jpg");
     }
   );
-	$(".timeline-nav .period-img:nth-of-type(2) .period-subnav li:nth-of-type(3) a").hover(
+	$(".timeline-nav div:nth-of-type(2) .period-subnav li:nth-of-type(3) a").hover(
     function() {
 			$("#jim-crow-nav").prop("src", "images/jim-crow.jpg");
     }, function () {
@@ -78,14 +78,14 @@ function jimCrowSubNavHover() {
 }
 
 function civilRightsSubNavHover() {
-	$(".timeline-nav .period-img:nth-of-type(3) .period-subnav li:nth-of-type(2) a").hover(
+	$(".timeline-nav div:nth-of-type(3) .period-subnav li:nth-of-type(2) a").hover(
     function() {
 			$("#civil-rights-nav").prop("src", "images/kkk.jpg");
     }, function () {
       $("#civil-rights-nav").prop("src", "images/brown-vs-board-of-education.jpg");
     }
   );
-	$(".timeline-nav .period-img:nth-of-type(3) .period-subnav li:nth-of-type(3) a").hover(
+	$(".timeline-nav div:nth-of-type(3) .period-subnav li:nth-of-type(3) a").hover(
     function() {
 			$("#civil-rights-nav").prop("src", "images/birmingham-riots.jpg");
     }, function () {
@@ -94,9 +94,47 @@ function civilRightsSubNavHover() {
   );
 }
 
+// left nav rollover image swap
+function reconstructionLeftNavHover() {
+	$(".period-left-nav .period-subnav li:nth-of-type(1) a").hover(
+    function() {
+			$("#reconstruction-nav").prop("src", "../images/abe-lincoln.jpg");
+    }, function () {
+      $("#reconstruction-nav").prop("src", "../images/black-codes.jpg");
+    }
+  );
+	$(".period-left-nav .period-subnav li:nth-of-type(3) a").hover(
+    function() {
+			$("#reconstruction-nav").prop("src", "../images/fifteenth-amendment.jpg");
+    }, function () {
+      $("#reconstruction-nav").prop("src", "../images/black-codes.jpg");
+    }
+  );
+}
+
+// deactivate subnav active link class
+function deactiveSubNavActiveClass() {
+	$(".period-left-nav .period-subnav li:nth-of-type(1) a").hover(
+    function() {
+			$("#active").prop("class", "");
+    }, function () {
+      $("#active").prop("class", "active-link");
+    }
+  );
+	$(".period-left-nav .period-subnav li:nth-of-type(3) a").hover(
+		function() {
+			$("#active").prop("class", "");
+    }, function () {
+      $("#active").prop("class", "active-link");
+    }
+  );
+}
+
 $("document").ready(function () {
 	reconstructionImageHover();
 	reconstructionSubNavHover();
+	reconstructionLeftNavHover();
+	deactiveSubNavActiveClass();
 	jimCrowImageHover();
 	jimCrowSubNavHover();
 	civilRightsImageHover();

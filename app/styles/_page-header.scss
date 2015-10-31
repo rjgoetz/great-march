@@ -22,6 +22,9 @@
   nav {
     padding-top: 1.65em;
     float: right;
+    .active-nav {
+      border-bottom: 3px solid $camel;
+    }
     &>ul {
       margin: 0;
       padding: 0;
