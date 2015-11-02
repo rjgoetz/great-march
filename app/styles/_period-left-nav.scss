@@ -1,14 +1,20 @@
 // _period-left-nav.scss
 
 .period-left-nav {
-  margin-top: 6.4em;
+  top: 190px;
   font: 1rem/1 $font-stack-serif;
   color: $fuscous-grey;
   text-align: center;
   position: fixed;
-  &> img {
-    position: absolute;
-    bottom: 7.55em;
+  img {
+    display: block;
+    &:first-of-type {
+      padding-top: 0.8em;
+    }
+    &:last-of-type {
+      position: absolute;
+      bottom: 7.7em;
+    }
   }
   h3 {
     border-top: 1px solid $camel;
@@ -19,9 +25,5 @@
   p {
     font-size: 1em;
     margin-top: 0.75em;
-  }
-  img {
-    padding-top: 0.8em;
-    display: block;
   }
 }
