@@ -58,7 +58,7 @@ function reconstructionSubNavHover() {
 			$("#reconstruction-nav").prop("src", "images/abe-lincoln-on.jpg");
     }, function () {
 			$("#timeline").prop("src", "images/timeline.png");
-      $("#reconstruction-nav").prop("src", "images/abe-lincoln-on.jpg");
+      $("#reconstruction-nav").prop("src", "images/abe-lincoln.jpg");
     }
   );
 	$(".timeline-nav div:first-of-type .period-subnav li:nth-of-type(2) a").hover(
@@ -89,7 +89,7 @@ function jimCrowSubNavHover() {
 			$("#jim-crow-nav").prop("src", "images/disfranchisement-on.jpg");
     }, function () {
 			$("#timeline").prop("src", "images/timeline.png");
-      $("#jim-crow-nav").prop("src", "images/disfranchisement-on.jpg");
+      $("#jim-crow-nav").prop("src", "images/disfranchisement.jpg");
     }
   );
 	$(".timeline-nav div:nth-of-type(2) .period-subnav li:nth-of-type(2) a").hover(
@@ -120,7 +120,7 @@ function civilRightsSubNavHover() {
 			$("#civil-rights-nav").prop("src", "images/brown-vs-board-of-education-on.jpg");
     }, function () {
 			$("#timeline").prop("src", "images/timeline.png");
-      $("#civil-rights-nav").prop("src", "images/brown-vs-board-of-education-on.jpg");
+      $("#civil-rights-nav").prop("src", "images/brown-vs-board-of-education.jpg");
     }
   );
 	$(".timeline-nav div:nth-of-type(3) .period-subnav li:nth-of-type(2) a").hover(
@@ -160,16 +160,16 @@ function greatMarchSubNavHover() {
 function reconstructionLeftNavHover() {
 	$(".period-left-nav .period-subnav li:nth-of-type(1) a").hover(
     function() {
-			$("#reconstruction-nav").prop("src", "../images/abe-lincoln-on.jpg");
+			$("#reconstruction-nav").prop("src", "images/abe-lincoln-on.jpg");
     }, function () {
-      $("#reconstruction-nav").prop("src", "../images/black-codes-on.jpg");
+      $("#reconstruction-nav").prop("src", "images/black-codes-on.jpg");
     }
   );
 	$(".period-left-nav .period-subnav li:nth-of-type(3) a").hover(
     function() {
-			$("#reconstruction-nav").prop("src", "../images/fifteenth-amendment-on.jpg");
+			$("#reconstruction-nav").prop("src", "images/fifteenth-amendment-on.jpg");
     }, function () {
-      $("#reconstruction-nav").prop("src", "../images/black-codes-on.jpg");
+      $("#reconstruction-nav").prop("src", "images/black-codes-on.jpg");
     }
   );
 }
