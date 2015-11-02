@@ -1,14 +1,14 @@
 // _period-left-nav.scss
 
 .period-left-nav {
-  margin-top: 8.75em;
+  margin-top: 6.4em;
   font: 1rem/1 $font-stack-serif;
   color: $fuscous-grey;
   text-align: center;
-  position: relative;
+  position: fixed;
   &> img {
     position: absolute;
-    bottom: 7.75em;
+    bottom: 7.55em;
   }
   h3 {
     border-top: 1px solid $camel;
